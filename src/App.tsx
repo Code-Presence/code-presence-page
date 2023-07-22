@@ -27,4 +27,11 @@ const Container = styled.section`
     animation: pulse 2s infinite;
     max-width: 10vw;
   }
+
+  @media screen and (max-width: 600px) {
+    & img {
+    animation: pulse 2s infinite;
+    max-width: 30vw;
+  }
+  }
 `;
